@@ -26,7 +26,6 @@ RESULTS = '/tmp/workfile.txt'
 
 
 def createEmailListFromTxtFile(email):
-    
     with open(EMAILS) as file:
         for line in file:
             line = line.strip()
